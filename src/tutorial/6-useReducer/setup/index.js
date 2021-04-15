@@ -1,7 +1,7 @@
 import React, { useState, useReducer } from 'react';
 import Modal from './Modal';
 import { data } from '../../../data';
-import { reducer }
+import { reducer } from './reducer';
 // reducer function
 
 const defaultState = {

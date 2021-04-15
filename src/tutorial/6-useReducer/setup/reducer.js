@@ -1,4 +1,4 @@
-const reducer = (state, action) => {
+export const reducer = (state, action) => {
     if(action.type === 'ADD_ITEM') {
       const newPeople = [...state.people, action.payload];
       return {...state,
